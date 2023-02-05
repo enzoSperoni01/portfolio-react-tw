@@ -16,7 +16,7 @@ function Navbar() {
                         text-4xl
                         cursor-pointer
                         ml-[50px]
-                        hover:text-gray-200
+                        hover:text-gray-300
                     '>
                         ES.
                     </h1>
@@ -33,26 +33,52 @@ function Navbar() {
                         font-semibold
                         text-slate-300
                         font-mono
+                        text-lg
                     '>
-                        <a href="#About" className='mr-9'>About</a>
-                        <a href="#Experience" className='mr-9'>Experience</a>
-                        <a href="#Work" className='mr-9'>Work</a>
-                        <a href="#Contact" className='mr-9'>Contact</a>
+                        <a href="#About" className='
+                            mr-9 
+                            hover:text-slate-400
+                            transition-all
+                            ease
+                            hover:duration-300
+                        '>About</a>
+                        <a href="#Experience" className='
+                            mr-9 
+                            hover:text-slate-400
+                            transition-all
+                            ease
+                            hover:duration-300
+                        '>Experience</a>
+                        <a href="#Work" className='
+                            mr-9 
+                            hover:text-slate-400
+                            transition-all
+                            ease
+                            hover:duration-300
+                        '>Work</a>
+                        <a href="#Contact" className='
+                            mr-9 
+                            hover:text-slate-400
+                            transition-all
+                            ease
+                            hover:duration-300
+                        '>Contact</a>
                     </div>
 
                     <button className='
-                        border-[1px]
+                        border-2
                         border-solid
-                        border-green-400
-                        px-5
+                        border-lime-400
+                        font-semibold
+                        px-6
                         py-2
                         rounded-md
                         mr-10
                         ml-14
                         transition-all
                         ease
-                        hover:duration-700
-                        text-green-400
+                        hover:duration-500
+                        text-lime-400
                         hover:bg-green-200/20
                     '>
                         Resume
