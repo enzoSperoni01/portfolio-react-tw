@@ -11,12 +11,12 @@ function Navbar() {
             '>
                 <div>
                     <h1 className='
-                        text-white
+                        text-slate-100
                         font-bold
                         text-4xl
                         cursor-pointer
                         ml-[50px]
-                        hover:text-gray-300
+                        hover:text-slate-300
                     '>
                         ES<span className='text-lime-400'>.</span></h1>
                 </div>
@@ -41,7 +41,7 @@ function Navbar() {
                             hover:duration-300
                         '><span className='
                             text-lime-400
-                        '>1.</span> About</a>
+                        '>01.</span> About</a>
                         <a href="#Experience" className='
                             mr-9 
                             hover:text-slate-400
@@ -50,7 +50,7 @@ function Navbar() {
                             hover:duration-300
                         '><span className='
                             text-lime-400
-                        '>2.</span> Experience</a>
+                        '>02.</span> Experience</a>
                         <a href="#Work" className='
                             mr-9 
                             hover:text-slate-400
@@ -59,7 +59,7 @@ function Navbar() {
                             hover:duration-300
                         '><span className='
                             text-lime-400
-                        '>3.</span> Work</a>
+                        '>03.</span> Work</a>
                         <a href="#Contact" className='
                             mr-9 
                             hover:text-slate-400
@@ -68,7 +68,7 @@ function Navbar() {
                             hover:duration-300
                         '><span className='
                             text-lime-400
-                        '>4.</span> Contact</a>
+                        '>04.</span> Contact</a>
                     </div>
 
                     <a href="#">

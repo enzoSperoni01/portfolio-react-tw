@@ -10,7 +10,7 @@ function Home() {
                 justify-center
                 items-left
                 content-center
-                h-[80vh]
+                h-[85vh]
             '>
                 <p className='
                     text-lime-400
@@ -30,7 +30,7 @@ function Home() {
                     mt-5
                 '>I love building  things for the web.</h2>
                 <p className='
-                    text-xl
+                    text-2xl
                     mt-7
                     font-medium
                     text-slate-400
