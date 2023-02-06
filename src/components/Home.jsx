@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
     return (
         <div className='grid grid-cols-[400px_minmax(900px,_1fr)_400px] content-center'>
-            <div className='w-1'></div>
+            <div></div>
             <div className='
                 flex
                 flex-col
@@ -41,7 +41,7 @@ function Home() {
                     I manage.
                 </p>
             </div>
-            <div className='w-1'></div>
+            <div></div>
         </div>
     )
 }
