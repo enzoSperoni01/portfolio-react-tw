@@ -7,7 +7,7 @@ function Navbar() {
                 flex
                 justify-between
                 items-center
-                mt-4
+                mt-5
             '>
                 <div>
                     <h1 className='
@@ -18,9 +18,7 @@ function Navbar() {
                         ml-[50px]
                         hover:text-gray-300
                     '>
-                        ES.
-                    </h1>
-                    {/* Logo */}
+                        ES<span className='text-lime-400'>.</span></h1>
                 </div>
 
                 <div className='
@@ -41,48 +39,58 @@ function Navbar() {
                             transition-all
                             ease
                             hover:duration-300
-                        '>About</a>
+                        '><span className='
+                            text-lime-400
+                        '>1.</span> About</a>
                         <a href="#Experience" className='
                             mr-9 
                             hover:text-slate-400
                             transition-all
                             ease
                             hover:duration-300
-                        '>Experience</a>
+                        '><span className='
+                            text-lime-400
+                        '>2.</span> Experience</a>
                         <a href="#Work" className='
                             mr-9 
                             hover:text-slate-400
                             transition-all
                             ease
                             hover:duration-300
-                        '>Work</a>
+                        '><span className='
+                            text-lime-400
+                        '>3.</span> Work</a>
                         <a href="#Contact" className='
                             mr-9 
                             hover:text-slate-400
                             transition-all
                             ease
                             hover:duration-300
-                        '>Contact</a>
+                        '><span className='
+                            text-lime-400
+                        '>4.</span> Contact</a>
                     </div>
 
-                    <button className='
-                        border-2
-                        border-solid
-                        border-lime-400
-                        font-semibold
-                        px-6
-                        py-2
-                        rounded-md
-                        mr-10
-                        ml-14
-                        transition-all
-                        ease
-                        hover:duration-500
-                        text-lime-400
-                        hover:bg-green-200/20
-                    '>
-                        Resume
-                    </button>
+                    <a href="#">
+                        <button className='
+                            border-2
+                            border-solid
+                            border-lime-400
+                            font-semibold
+                            px-6
+                            py-2
+                            rounded-md
+                            mr-10
+                            ml-14
+                            transition-all
+                            ease
+                            hover:duration-500
+                            text-lime-400
+                            hover:bg-green-200/20
+                        '>
+                            Resume
+                        </button>
+                    </a>
                 </div>
             </nav>
         </header>
