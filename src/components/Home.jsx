@@ -11,7 +11,7 @@ const Home = () => {
                 justify-center
                 items-left
                 content-center
-                h-[85vh]
+                h-[96vh]
             '>
                 <p className='
                     text-lime-400

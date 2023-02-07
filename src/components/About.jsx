@@ -5,7 +5,7 @@ const About = () => {
         <Grid className='content-center' templateColumns={"370px 1fr 370px"}>
             <GridItem />
 
-            <GridItem>
+            <GridItem className='h-[96vh]'>
                 <h2 className="text-slate-100 font-sans font-semibold text-3xl">
                     <span className="text-lime-400 font-mono">01.</span> About Me
                 </h2>
