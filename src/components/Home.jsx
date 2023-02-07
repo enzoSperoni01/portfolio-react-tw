@@ -1,10 +1,11 @@
 import React from 'react'
+import { Grid, GridItem } from '@chakra-ui/react'
 
-function Home() {
+const Home = () => {
     return (
-        <div className='grid grid-cols-[400px_minmax(900px,_1fr)_400px] content-center'>
-            <div></div>
-            <div className='
+        <Grid className='content-center' templateColumns={"370px 1fr 370px"}>
+            <GridItem></GridItem>
+            <GridItem className='
                 flex
                 flex-col
                 justify-center
@@ -40,9 +41,9 @@ function Home() {
                     for opportunities that will make me grow within the stack of technologies that
                     I manage.
                 </p>
-            </div>
-            <div></div>
-        </div>
+            </GridItem>
+            <GridItem></GridItem>
+        </Grid>
     )
 }
 
