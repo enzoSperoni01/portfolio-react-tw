@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
+import About from './components/About.jsx';
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <Navbar />
 
       <Home />
-      {/* About */}
+      <About />
       {/* Experience */}
       {/* Work */}
       {/* Contact */}
