@@ -33,7 +33,7 @@ function Navbar() {
                         font-mono
                         text-lg
                     '>
-                        <a href="#About" className='
+                        <a href="#about" className='
                             mr-9 
                             hover:text-slate-400
                             transition-all
