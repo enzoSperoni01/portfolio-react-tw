@@ -1,12 +1,26 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 function Navbar() {
-    const handleClickScroll = () => {
-        const element = document.getElementById('section-1');
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+    const menuItems = [
+        {
+            id: 1,
+            title: "About"
+        },
+        {
+            id: 2,
+            title: "Experience"
+        },
+        {
+            id: 3,
+            title: "Work"
+        },
+        {
+            id: 4,
+            title: "Contact"
+        },
+    ]
+
     return (
         <header>
             <nav className='
@@ -33,50 +47,15 @@ function Navbar() {
                     items-center
                     text-lg
                 '>
-                    <div className='
-                        font-semibold
-                        text-slate-300
-                        font-mono
-                        text-lg
-                    '>
-                        <a href="#about" className='
-                            mr-9 
-                            hover:text-slate-400
-                            transition-all
-                            ease
-                            hover:duration-300
-                        '><span className='
-                            text-lime-400
-                        ' onClick={handleClickScroll}>01.</span> About</a>
-                        <a href="#Experience" className='
-                            mr-9 
-                            hover:text-slate-400
-                            transition-all
-                            ease
-                            hover:duration-300
-                        '><span className='
-                            text-lime-400
-                        '>02.</span> Experience</a>
-                        <a href="#Work" className='
-                            mr-9 
-                            hover:text-slate-400
-                            transition-all
-                            ease
-                            hover:duration-300
-                        '><span className='
-                            text-lime-400
-                        '>03.</span> Work</a>
-                        <a href="#Contact" className='
-                            mr-9 
-                            hover:text-slate-400
-                            transition-all
-                            ease
-                            hover:duration-300
-                        '><span className='
-                            text-lime-400
-                        '>04.</span> Contact</a>
-                    </div>
-
+                    <ul className='flex font-semibold text-slate-300 font-mono text-lg'>
+                        {menuItems.map( item => (
+                            <li>
+                                <Link to={item.title} smooth={true} offset={200} duration={500} className='mr-9  hover:text-slate-400 cursor-pointer transition-all ease hover:duration-300'>
+                                    <span className='text-lime-400'>0{item.id}.</span> { item.title }
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
                     <a href="#">
                         <button className='
                             border-2

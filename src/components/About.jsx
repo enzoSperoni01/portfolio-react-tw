@@ -10,7 +10,7 @@ const About = () => {
     }, [])
 
     return (
-        <Grid id='about' data-aos="fade-up" data-aos-duration="1500" className='content-center' templateColumns={"370px 1fr 370px"}>
+        <Grid id='About' data-aos="fade-up" data-aos-duration="1500" className='content-center' templateColumns={"370px 1fr 370px"}>
             <GridItem />
 
             <GridItem className='h-[80vh]'>
