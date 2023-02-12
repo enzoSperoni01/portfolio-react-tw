@@ -10,15 +10,18 @@ const About = () => {
     }, [])
 
     return (
-        <Grid id='About' data-aos="fade-up" data-aos-duration="1500" className='content-center' templateColumns={"370px 1fr 370px"}>
+        <Grid id='About' className='content-center' templateColumns={"370px 1fr 370px"}>
             <GridItem />
 
             <GridItem className='h-[80vh]'>
-                <h2 className="text-slate-100 font-sans font-semibold text-3xl mb-3">
+                <h2 className="text-slate-100 font-sans font-semibold text-3xl mb-3"
+                    data-aos="fade-up" data-aos-duration="1500"
+                >
                     <span className="text-lime-400 font-mono">01.</span> About Me
                 </h2>
-                <hr className="border border-solid border-slate-200 rounded-lg opacity-25" />
-                <div className='flex my-6'>
+                <div className='flex my-6'
+                    data-aos="fade-up" data-aos-duration="2300"
+                >
                     <div>
                         <p className='text-xl mr-28 mb-10 text-slate-300 font-semibold text-left'>
                             Hello! My name is <span className='text-lime-400 font-mono'>Enzo Speroni</span> and I really enjoy creating things with code that can live on the Internet. In the year 2021, I started to study in a self-taught way, then I had a training in the Coderhouse academy together with Platzi courses. I realized the creative and work possibilities that this world offers, and I decided to focus on it. I managed to expand my stack of knowledge and today my favorite tool in the world of Web Development is <span className='text-teal-300 font-mono'>React</span>!
