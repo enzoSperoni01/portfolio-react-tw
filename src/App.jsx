@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
+import './styles/index.css'
 
 const App = () => {
   return (

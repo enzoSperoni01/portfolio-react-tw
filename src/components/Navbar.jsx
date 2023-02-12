@@ -1,6 +1,12 @@
 import React from 'react';
 
 function Navbar() {
+    const handleClickScroll = () => {
+        const element = document.getElementById('section-1');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <header>
             <nav className='
@@ -41,7 +47,7 @@ function Navbar() {
                             hover:duration-300
                         '><span className='
                             text-lime-400
-                        '>01.</span> About</a>
+                        ' onClick={handleClickScroll}>01.</span> About</a>
                         <a href="#Experience" className='
                             mr-9 
                             hover:text-slate-400

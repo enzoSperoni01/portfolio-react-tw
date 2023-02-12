@@ -1,7 +1,16 @@
 import { Grid, GridItem } from '@chakra-ui/react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import '../styles/index.css'
+
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
-        <Grid id='about' className='content-center' templateColumns={"370px 1fr 370px"}>
+        <Grid id='about' data-aos="fade-up" data-aos-duration="1500" className='content-center' templateColumns={"370px 1fr 370px"}>
             <GridItem />
 
             <GridItem className='h-[80vh]'>
