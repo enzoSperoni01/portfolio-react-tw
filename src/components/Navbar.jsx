@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-scroll';
 
-function Navbar() {
+const Navbar = () => {
     const menuItems = [
         {
             id: 1,
@@ -21,15 +20,18 @@ function Navbar() {
         },
     ]
 
+    const refreshPage = () => {
+        window.location.reload(false);
+    }
+
     return (
-        <header>
+        <header className='bg-[#0A192F]/10 backdrop-blur-lg py-4 w-full fixed top-0'>
             <nav className='
                 flex
                 justify-between
                 items-center
-                mt-5
             '>
-                <div>
+                <div onClick={refreshPage}>
                     <h1 className='
                         text-slate-100
                         font-bold
