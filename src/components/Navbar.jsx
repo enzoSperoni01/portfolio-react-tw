@@ -25,7 +25,7 @@ const Navbar = () => {
     }
 
     return (
-        <header className='bg-[#0A192F]/10 backdrop-blur-lg py-4 w-full fixed top-0'>
+        <header className='bg-[#0A192F]/10 backdrop-blur-lg py-4 px-8 w-full fixed top-0'>
             <nav className='
                 flex
                 justify-between
