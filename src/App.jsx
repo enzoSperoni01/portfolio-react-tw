@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
+import Experience from './components/Experience.jsx';
 import './styles/index.css'
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
 
       <Home />
       <About />
-      {/* Experience */}
+      <Experience />
       {/* Work */}
       {/* Contact */}
     </div>

@@ -3,16 +3,10 @@ import { Grid, GridItem } from '@chakra-ui/react';
 
 const Home = () => {
     return (
-        <Grid className='content-center' templateColumns={"370px 1fr 370px"}>
-            <GridItem></GridItem>
-            <GridItem className='
-                flex
-                flex-col
-                justify-center
-                items-left
-                content-center
-                h-[93vh]
-            '>
+        <Grid className='content-center h-[100vh]' templateColumns={"370px 1fr 370px"}>
+            <GridItem />
+
+            <GridItem className='flex flex-col justify-center items-left content-center'>
                 <p className='
                     text-lime-400
                     font-mono
@@ -42,7 +36,8 @@ const Home = () => {
                     I manage.
                 </p>
             </GridItem>
-            <GridItem></GridItem>
+
+            <GridItem />
         </Grid>
     )
 }
