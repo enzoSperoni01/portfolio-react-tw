@@ -51,7 +51,7 @@ const Navbar = () => {
                 '>
                     <ul className='flex font-semibold text-slate-300 font-mono text-lg'>
                         {menuItems.map( item => (
-                            <li>
+                            <li key={item.id}>
                                 <Link to={item.title} smooth={true} offset={200} duration={500} className='mr-9  hover:text-slate-400 cursor-pointer transition-all ease hover:duration-300'>
                                     <span className='text-lime-400'>0{item.id}.</span> { item.title }
                                 </Link>
