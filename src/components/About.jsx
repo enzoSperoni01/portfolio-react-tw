@@ -14,7 +14,7 @@ const About = () => {
             <GridItem />
 
             <GridItem>
-                <h2 className="text-slate-100 font-sans font-semibold text-3xl mb-3"
+                <h2 className="text-slate-100 font-sans font-semibold text-4xl mb-3"
                     data-aos="fade-up" data-aos-duration="1500"
                 >
                     <span className="text-lime-400 font-mono">01.</span> About Me
