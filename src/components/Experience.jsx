@@ -38,7 +38,7 @@ const Experience = () => {
                             <img 
                                 className='w-9/12'
                                 src="../../public/assets/myGames.jpg" 
-                                alt="myGames" />
+                                alt="myGames Image" />
                             <p className='font-semibold mt-9 text-xl'>
                                 This was my first project! I created it in 2021. It was an internship project I had to do
                                 for the programming school where I studied: Coderhouse. It was the way I learned
@@ -47,7 +47,14 @@ const Experience = () => {
                             <p className='font-semibold mt-5 text-xl'>
                                 <span className='text-lime-400'>Technologies</span>: HTML5, CSS3, Bootstrap, Flex, Grid, Responsive Design
                             </p>
-                            <p className='font-semibold mt-9 text-xl'>
+                            <p className='font-semibold mt-4 text-xl'>
+                                Link: <a 
+                                    href="https://enzosperoni01.github.io/myGames/"
+                                    target="_blank"
+                                    className='text-sky-500 hover:underline'
+                                    >myGames Web Site</a>
+                            </p>
+                            <p className='font-semibold mt-5 text-xl'>
                                 Repository: <a
                                     href="https://github.com/enzoSperoni01/myGames" 
                                     target="_blank"
@@ -56,7 +63,31 @@ const Experience = () => {
                             </p>
                         </TabPanel>
                         <TabPanel>
-                            <p>Calu!</p>
+                            <img 
+                                className='w-9/12'
+                                src='../../public/assets/calu.png'
+                                alt='Calu Image' />
+                            <p className='font-semibold mt-9 text-xl'>
+                                In my second project I wanted to make another website
+                                , but it was about the world of cryptocurrencies.<br/>This site was created days after finishing myGames. 
+                            </p>
+                            <p className='font-semibold mt-5 text-xl'>
+                                <span className='text-lime-400'>Technologies</span>: HTML5, CSS3, Flex, Grid, Responsive Design, Bootstrap
+                            </p>
+                            <p className='font-semibold mt-4 text-xl'>
+                                Link: <a 
+                                    href="https://enzosperoni01.github.io/Calu/"
+                                    target="_blank"
+                                    className='text-sky-500 hover:underline'
+                                    >Calu Web Site</a>
+                            </p>
+                            <p className='font-semibold mt-5 text-xl'>
+                                Repository: <a
+                                    href="https://github.com/enzoSperoni01/Calu" 
+                                    target="_blank"
+                                    className='text-sky-500 hover:underline'
+                                    >Calu</a>
+                            </p>
                         </TabPanel>
                         <TabPanel>
                             <p>Bookify!</p>
