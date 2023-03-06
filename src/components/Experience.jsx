@@ -35,7 +35,25 @@ const Experience = () => {
 
                     <TabPanels>
                         <TabPanel>
-                            <p>myGames!</p>
+                            <img 
+                                className='w-9/12'
+                                src="../../public/assets/myGames.jpg" 
+                                alt="myGames" />
+                            <p className='font-semibold mt-9 text-xl'>
+                                This was my first project! I created it in 2021. It was an internship project I had to do
+                                for the programming school where I studied: Coderhouse. It was the way I learned
+                                programming languages and Web layout. For this project I got a 10 as a result and entered the Top 10 students of my study group.
+                            </p>
+                            <p className='font-semibold mt-5 text-xl'>
+                                <span className='text-lime-400'>Technologies</span>: HTML5, CSS3, Bootstrap, Flex, Grid, Responsive Design
+                            </p>
+                            <p className='font-semibold mt-9 text-xl'>
+                                Repository: <a
+                                    href="https://github.com/enzoSperoni01/myGames" 
+                                    target="_blank"
+                                    className='text-sky-500 hover:underline'
+                                    >myGames</a>
+                            </p>
                         </TabPanel>
                         <TabPanel>
                             <p>Calu!</p>
