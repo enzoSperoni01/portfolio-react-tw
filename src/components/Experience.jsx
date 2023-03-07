@@ -93,7 +93,7 @@ const Experience = () => {
                             <img 
                                 className='w-9/12'
                                 src='../../public/assets/bookify.png'
-                                alt='Calu Image' />
+                                alt='Bookify Image' />
                             <p className='font-semibold mt-9 text-xl'>
                                 Here is my third project where I applied Javascript for the first time! This project I 
                                 also had to design and develop for a project of the school where I studied. I also got a 
@@ -120,7 +120,34 @@ const Experience = () => {
                             </p>
                         </TabPanel>
                         <TabPanel>
-                            <p>Mica Ganzo!</p>
+                            <img 
+                                className='w-9/12'
+                                src='../../public/assets/micaGanzo.png'
+                                alt='Micas Ganzo Image' />
+                            <p className='font-semibold mt-9 text-xl'>
+                                This was the first page I made for a client. Applying the knowledge of the previous 
+                                sites I created, a Spanish teacher was looking to create a website to promote her 
+                                service of online classes for foreigners. I keep in touch with the client in case she 
+                                needs maintenance on her website.
+                            </p> 
+                            <p className='font-semibold mt-5 text-xl'>
+                                <span className='text-lime-400'>Technologies</span>: 
+                                HTML5, CSS3, JavaScript, EcmaScript6
+                            </p>
+                            <p className='font-semibold mt-4 text-xl'>
+                                Link: <a 
+                                    href="https://www.micasganzo.com/"
+                                    target="_blank"
+                                    className='text-sky-500 hover:underline'
+                                    >Micas Ganzo Web Site</a>
+                            </p>
+                            <p className='font-semibold mt-5 text-xl'>
+                                Repository: <a
+                                    href="https://github.com/enzoSperoni01/Micaela-Ganzo" 
+                                    target="_blank"
+                                    className='text-sky-500 hover:underline'
+                                    >Micas Ganzo</a>
+                            </p>
                         </TabPanel>
                         <TabPanel>
                             <p className='font-semibold mt-4 text-xl'>
