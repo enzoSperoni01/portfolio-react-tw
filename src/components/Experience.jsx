@@ -90,13 +90,46 @@ const Experience = () => {
                             </p>
                         </TabPanel>
                         <TabPanel>
-                            <p>Bookify!</p>
+                            <img 
+                                className='w-9/12'
+                                src='../../public/assets/bookify.png'
+                                alt='Calu Image' />
+                            <p className='font-semibold mt-9 text-xl'>
+                                Here is my third project where I applied Javascript for the first time! This project I 
+                                also had to design and develop for a project of the school where I studied. I also got a 
+                                10 in this project and it was the beginning for me to work with a client, and soon I 
+                                will start studying ReactJS.
+                            </p>
+                            <p className='font-semibold mt-5 text-xl'>
+                                <span className='text-lime-400'>Technologies</span>: 
+                                HTML5, CSS3, JavaScript, EcmaScript6, jQuery, SweetAlert
+                            </p>
+                            <p className='font-semibold mt-4 text-xl'>
+                                Link: <a 
+                                    href="https://enzosperoni01.github.io/Bookify/"
+                                    target="_blank"
+                                    className='text-sky-500 hover:underline'
+                                    >Bookify Web Site</a>
+                            </p>
+                            <p className='font-semibold mt-5 text-xl'>
+                                Repository: <a
+                                    href="https://github.com/enzoSperoni01/Bookify" 
+                                    target="_blank"
+                                    className='text-sky-500 hover:underline'
+                                    >Bookify</a>
+                            </p>
                         </TabPanel>
                         <TabPanel>
                             <p>Mica Ganzo!</p>
                         </TabPanel>
                         <TabPanel>
-                            <p>Linkedin Clone!</p>
+                            <p className='font-semibold mt-4 text-xl'>
+                                Link: <a 
+                                    href="https://linkedin-clone-9b792.firebaseapp.com/"
+                                    target="_blank"
+                                    className='text-sky-500 hover:underline'
+                                    >Linkedin Clone Web Site</a>
+                            </p>
                         </TabPanel>
                     </TabPanels>
                 </Tabs>
