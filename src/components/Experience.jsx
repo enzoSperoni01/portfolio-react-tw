@@ -45,7 +45,7 @@ const Experience = () => {
                                 programming languages and Web layout. For this project I got a 10 as a result and entered the Top 10 students of my study group.
                             </p>
                             <p className='font-semibold mt-5 text-xl'>
-                                <span className='text-lime-400'>Technologies</span>: HTML5, CSS3, Bootstrap, Flex, Grid, Responsive Design
+                                <span className='text-lime-400'>Technologies</span>: HTML5, CSS3, Bootstrap, Flex, Grid, Responsive Design, Sass
                             </p>
                             <p className='font-semibold mt-4 text-xl'>
                                 Link: <a 
@@ -72,7 +72,7 @@ const Experience = () => {
                                 , but it was about the world of cryptocurrencies.<br/>This site was created days after finishing myGames. 
                             </p>
                             <p className='font-semibold mt-5 text-xl'>
-                                <span className='text-lime-400'>Technologies</span>: HTML5, CSS3, Flex, Grid, Responsive Design, Bootstrap
+                                <span className='text-lime-400'>Technologies</span>: HTML5, CSS3, Flex, Grid, Responsive Design, Bootstrap, Sass
                             </p>
                             <p className='font-semibold mt-4 text-xl'>
                                 Link: <a 
@@ -102,7 +102,7 @@ const Experience = () => {
                             </p>
                             <p className='font-semibold mt-5 text-xl'>
                                 <span className='text-lime-400'>Technologies</span>: 
-                                HTML5, CSS3, JavaScript, EcmaScript6, jQuery, SweetAlert
+                                HTML5, CSS3, JavaScript, EcmaScript6, jQuery, SweetAlert, Sass
                             </p>
                             <p className='font-semibold mt-4 text-xl'>
                                 Link: <a 
@@ -132,7 +132,7 @@ const Experience = () => {
                             </p> 
                             <p className='font-semibold mt-5 text-xl'>
                                 <span className='text-lime-400'>Technologies</span>: 
-                                HTML5, CSS3, JavaScript, EcmaScript6
+                                HTML5, CSS3, JavaScript, EcmaScript6, Sass
                             </p>
                             <p className='font-semibold mt-4 text-xl'>
                                 Link: <a 
