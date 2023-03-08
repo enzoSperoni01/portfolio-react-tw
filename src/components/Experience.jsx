@@ -150,12 +150,32 @@ const Experience = () => {
                             </p>
                         </TabPanel>
                         <TabPanel>
+                            <img 
+                                className='w-9/12'
+                                src='../../public/assets/linkedin.png'
+                                alt='Micas Ganzo Image' />
+                            <p className='font-semibold mt-9 text-xl'>
+                                This was my last project. I replicated the Linkedin home section. Using ReactJS and
+                                connecting it to Firebase to make different accounts can write and send their message in 
+                                the middle column.
+                            </p> 
+                            <p className='font-semibold mt-5 text-xl'>
+                                <span className='text-lime-400'>Technologies</span>: 
+                                ReactJS, Firebase, Vite, Redux
+                            </p>
                             <p className='font-semibold mt-4 text-xl'>
                                 Link: <a 
                                     href="https://linkedin-clone-9b792.firebaseapp.com/"
                                     target="_blank"
                                     className='text-sky-500 hover:underline'
                                     >Linkedin Clone Web Site</a>
+                            </p>
+                            <p className='font-semibold mt-5 text-xl'>
+                                Repository: <a
+                                    href="https://github.com/enzoSperoni01/linkedin-clone" 
+                                    target="_blank"
+                                    className='text-sky-500 hover:underline'
+                                    >Linkedin Clone</a>
                             </p>
                         </TabPanel>
                     </TabPanels>
