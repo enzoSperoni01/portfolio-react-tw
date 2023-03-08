@@ -12,10 +12,6 @@ const Navbar = () => {
         },
         {
             id: 3,
-            title: "Work"
-        },
-        {
-            id: 4,
             title: "Contact"
         },
     ]
