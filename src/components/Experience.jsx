@@ -2,8 +2,31 @@ import { Grid, GridItem } from '@chakra-ui/react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
 
 const Experience = () => {
+    const tabs = [
+        {
+            id: 1,
+            name: 'myGames'
+        },
+        {
+            id: 2,
+            name: 'Calu'
+        },
+        {
+            id: 3,
+            name: 'Bookify'
+        },
+        {
+            id: 4,
+            name: 'Micas Ganzo'
+        },
+        {
+            id: 5,
+            name: 'Linkedin Clone'
+        }
+    ]
+
     return (
-        <Grid id='Experience' className='content-center h-[80vh]' templateColumns={"370px 1fr 370px"}>
+        <Grid id='Experience' className='content-center h-[100vh]' templateColumns={"370px 1fr 370px"}>
             <GridItem />
 
             <GridItem>
@@ -17,20 +40,14 @@ const Experience = () => {
                         my='2em'
                         className='text-2xl font-bold'
                     >
-                        <Tab _selected={{backgroundColor:'rgb(132 204 22)'}} 
-                            className="p-5 hover:bg-lime-500 rounded-3xl hover:duration-500">myGames</Tab>
-
-                        <Tab _selected={{backgroundColor:'rgb(132 204 22)'}}
-                            className="p-5 hover:bg-lime-500 rounded-3xl hover:duration-500 ml-24">Calu</Tab>
-
-                        <Tab _selected={{backgroundColor:'rgb(132 204 22)'}}
-                            className="p-5 hover:bg-lime-500 rounded-3xl hover:duration-500 ml-24">Bookify</Tab>
-
-                        <Tab _selected={{backgroundColor:'rgb(132 204 22)'}}
-                            className="p-5 hover:bg-lime-500 rounded-3xl hover:duration-500 ml-24">Mica Ganzo</Tab>
-
-                        <Tab _selected={{backgroundColor:'rgb(132 204 22)'}}
-                            className="p-5 hover:bg-lime-500 rounded-3xl hover:duration-500 ml-24">Linkedin Clone</Tab>
+                        {
+                            tabs.map( tab => (
+                                <Tab key={tab.id} _selected={{backgroundColor:'rgb(132 204 22)'}} 
+                                    className="p-5 mx-10 hover:bg-lime-500 rounded-3xl hover:duration-500">
+                                        { tab.name }
+                                </Tab>
+                            ) )
+                        }
                     </TabList>
 
                     <TabPanels>
